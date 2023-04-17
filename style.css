@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Handlee', cursive;
+    font-size: 1.5rem;
+}
+
+.banner {
+    background-image: url("src/img/hiero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner p {
+    font-size: 4rem;
+    color: purple;
+    font-weight: bold;
+}
+
+#navbar {
+    background-color: rgb(119, 80, 119);
+    top: 0;
+    width: 100%;
+    position: relative;
+    height: 4rem;
+}
+
+.fixed-nav #navbar{
+    position: fixed;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+li {
+    padding: 16px;
+}
+
+li:hover {
+    background-color:darksalmon;
+}
